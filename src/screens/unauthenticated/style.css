@@ -1,15 +1,14 @@
 /* Header */
-header {display: flex; justify-content: space-between; max-width: 100vw;
-min-height: 5rem; align-items: center; }
-
-.sign-in-btn{ background-color: red; padding: 1em 1.90em; font-size: 1.2rem; border-radius: 2px;}
+.top-section-wrapper{border: 1px solid red; position: relative;}
+.top-section-bg{position: absolute; left: 0; width: 100%; height: 736.4px; opacity: 0.75; z-index: 0; object-fit: cover;}
+header {display: flex; justify-content: space-between; max-width: 100vw; min-height: 5rem; align-items: center; z-index: 2; position: relative; padding: 0px 5rem; }
+.language-select{background-color: black; border: 1px solid white;}
+.sign-in-btn{ background-color: red; padding: 1em 1.90em; font-size: 1.2rem; border-radius: 2px; }
 
 
 /* Hero Widget */
-.hero-widget-div{border: 2px solid green; padding: 5rem; min-width: 80%;}
-
-.hero-widget{border:2px solid yellow; padding: 5rem; min-width: 80%;}
-
+.hero-widget-div{border: 2px solid green; padding: 5rem; min-width: 80%; z-index: 1; position: relative;}
+.hero-widget{border:2px solid yellow; padding: 5rem; min-width: 80%; }
 .hero-subtitle{font-weight: 500}
 .hero-text{font-weight: 300;}
 .hero-input{background-color: white; color: black; padding: 2rem; min-width: 40%; border: none;}
