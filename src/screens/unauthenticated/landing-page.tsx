@@ -28,8 +28,12 @@ const LandingPage = () => {
               membership.
             </h4>
             <div className="email-signup-div">
-              <input placeholder="Email Address"></input>
-              <button>Get Started</button>
+              <input
+                onFocus={(event) => (event.target.placeholder = "")}
+                className="hero-input"
+                placeholder="Email Address"
+              ></input>
+              <button className="get-started-btn">Get Started</button>
             </div>
           </div>
         </div>
