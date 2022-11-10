@@ -55,6 +55,14 @@ const LandingPage = () => {
                 className="tv-img"
                 src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
               ></img>
+              <video
+                className="tv-video"
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                autoPlay
+                playsInline
+                muted
+                loop
+              ></video>
             </div>
           </div>
         </section>
