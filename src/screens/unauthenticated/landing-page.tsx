@@ -41,6 +41,23 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
+        <section className="enjoy-section">
+          <div className="enjoy-text-div">
+            <h2 className="enjoy-title">Enjoy on your TV.</h2>
+            <h3 className="enjoy-text">
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </h3>
+          </div>
+          <div className="enjoy-media">
+            <div>
+              <img
+                className="tv-img"
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+              ></img>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

@@ -2,8 +2,8 @@
 .top-section-wrapper{border: 1px solid red; position: relative;}
 .top-section-bg{position: absolute; left: 0; width: 100%; height: 736.4px; opacity: 0.75; z-index: 0; object-fit: cover;}
 header {display: flex; justify-content: space-between; max-width: 100vw; min-height: 5rem; align-items: center; z-index: 2; position: relative; padding: 0px 5rem; }
-.language-select{background-color: black; border: 1px solid white;}
-.sign-in-btn{ background-color: red; padding: 1em 1.90em; font-size: 1.2rem; border-radius: 2px; }
+.language-select{background-color: black; border: 1px solid white; margin-right: 3rem; font-weight: 400; font-size: 1.2rem;}
+.sign-in-btn{ background-color: red; padding: 0.8em 2em; font-size: 1.3rem; border-radius: 2px;  }
 
 
 /* Hero Widget */
@@ -16,6 +16,14 @@ header {display: flex; justify-content: space-between; max-width: 100vw; min-hei
 .get-started-btn{background-color: red; padding: 1em 1.90em; font-size: 1.75rem; border-radius:2px;}
 .email-signup-div{display: flex; justify-content: center;}
 
+/* Enjoy Section */
+.enjoy-section{display: flex; padding: 8em 3em;}
+.enjoy-text-div{flex: 1 1 0px; }
+.enjoy-title{font-size: 5rem; text-align: left; padding: 2em 3rem; padding: 3em 0px 0px 2em;}
+.enjoy-text{ font-weight: 200; text-align: left; font-size: 2rem; padding: 0px 0px 0px 5em;}
+.enjoy-media{flex: 1 1 0px;}
+.tv-img{background-color: aqua; max-width: 100%;}
+
 @media (min-width: 922px) {
     .hero-title{padding: 0 3.5em;}
 }
@@ -26,5 +34,8 @@ header {display: flex; justify-content: space-between; max-width: 100vw; min-hei
     .hero-widget{padding: 2rem;}
     .email-signup-div{display: flex; flex-direction: column; align-items: center;}
     .get-started-btn{font-size: 1.5rem; margin-top: 2rem;}
+    .enjoy-section{flex-direction: column;;}
+    .enjoy-title{font-size: 2em; padding: 0px;}
+    .enjoy-text{text-align: center; padding: 0px;}
 
 }
