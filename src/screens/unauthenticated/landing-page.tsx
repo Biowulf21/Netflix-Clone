@@ -19,9 +19,11 @@ const LandingPage = () => {
       <section>
         <div className="hero-widget-div">
           <div className="hero-widget">
-            <h1>Unlimited movies, TV shows, and more.</h1>
-            <h3>Watch anywhere. Cancel anytime.</h3>
-            <h4>
+            <h1 className="hero-title">
+              Unlimited movies, TV shows, and more.
+            </h1>
+            <h3 className="hero-subtitle">Watch anywhere. Cancel anytime.</h3>
+            <h4 className="hero-text">
               Ready to watch? Enter your email to create or restart your
               membership.
             </h4>
